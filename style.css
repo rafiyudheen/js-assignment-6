@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.my-form-inline{
+    display: flex;
+    flex-direction: row;
+}
+#carouselSec{
+    max-height: 500px;
+    object-fit: cover;
+}
+.carousel-item{
+    max-height: 500px;
+    
+}
+.Products-list{
+    /* padding: 5px; */
+    border: 1px;
+    border-radius: 3px;
+    border-color: burlywood;
+    border-style: solid;
+    gap: 5px;
+    /* row-gap: 5px; */
+    /* height: 100%; */
+}
+.product-item-inside{
+    /* margin: 3px; */
+    border-style: none;
+    background-color: bisque;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.product-item{
+    /* padding: 6px; */
+    /* position: relative; */
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    border-style: solid;
+    /* border: 5px; */
+    border-color: burlywood;
+    border-width: 2px;
+    border-radius: 0px 10px ;
+    /* margin: 10px; */
+    
+}
+ul img{
+    /* margin: 10px; */
+    padding: auto;
+    width: 100%;
+    object-fit: contain;
+    /* margin: 20px; */
+    height: 200px;
+    /* border-radius: 5px; */
+    /* object-fit:fill; */
+    position: relative;
+}
+ul{
+    list-style: none;
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+}
+.productTile{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    justify-self: center;
+    border-style: none;
+    background-color: bisque;
+    height: 100%;
+    border-radius: 5px;
+    
+    /* justify-content: start; */
+}
+
+
+.price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: left;
+    align-self: center;
+    margin: 0px;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+    padding: 0px 3px;
+}
+.description{
+    padding: 0px 3px;
+}
+.price-Div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    align-content: center;
+}
+.branding{
+    height: 50px;
+}
+.branding-text{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(231, 105, 33);
+    margin: 0px;
+}
