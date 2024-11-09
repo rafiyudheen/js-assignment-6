@@ -35,8 +35,7 @@ function serachProducts()
 
     document.getElementById("productListHeading").innerText=headerText;
     addToDOM();
-    debugger
-    alert(headerText);
+
 
     function fileterProducts(product){
         console.log(product.title)
